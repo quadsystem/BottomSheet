@@ -8,6 +8,7 @@
 #if !os(macOS)
 import Foundation
 
+@available(iOS 13.0, *)
 public extension BottomSheet {
     
     /// Adds padding to the bottom of the main content when the keyboard appears so all of the main content is visible.

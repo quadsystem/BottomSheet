@@ -7,6 +7,7 @@
 
 import Foundation
 
+@available(iOS 13.0, *)
 public extension BottomSheet {
     
     /// Makes it possible to make the sheet appear like on iPhone.

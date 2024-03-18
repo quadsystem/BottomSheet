@@ -7,6 +7,7 @@
 
 import Foundation
 
+@available(iOS 13.0, *)
 public extension BottomSheet {
     
     /// Adds a close button to the headerContent on the trailing side.

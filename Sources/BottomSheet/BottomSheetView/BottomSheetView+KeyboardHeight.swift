@@ -9,6 +9,7 @@
 import UIKit
 import SwiftUI
 
+@available(iOS 13.0, *)
 internal class KeyboardHeight: ObservableObject {
     
     @Published private(set) internal var value: CGFloat = 0

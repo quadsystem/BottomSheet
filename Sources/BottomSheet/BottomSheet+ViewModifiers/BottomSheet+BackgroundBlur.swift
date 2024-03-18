@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+@available(iOS 13.0, *)
 public extension BottomSheet {
     
     /// Adds a fullscreen blur layer below the BottomSheet.

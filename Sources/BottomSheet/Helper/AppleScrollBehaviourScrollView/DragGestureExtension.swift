@@ -8,6 +8,7 @@
 #if !os(macOS)
 import SwiftUI
 
+@available(iOS 13.0, *)
 internal extension DragGesture {
     enum DragState: Equatable {
         case none
