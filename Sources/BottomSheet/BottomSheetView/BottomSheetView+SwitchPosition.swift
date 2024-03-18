@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+@available(iOS 13.0, *)
 internal extension BottomSheetView {
     
     // For `flickThrough`

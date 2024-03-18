@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+@available(iOS 13.0, *)
 internal struct BottomSheetView<HContent: View, MContent: View>: View {
     @GestureState var isDragging: Bool = false
     @State var lastDragValue: DragGesture.Value?

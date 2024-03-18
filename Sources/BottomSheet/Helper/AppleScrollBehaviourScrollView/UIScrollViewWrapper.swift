@@ -8,6 +8,7 @@
 #if !os(macOS)
 import SwiftUI
 
+@available(iOS 13.0, *)
 internal struct UIScrollViewWrapper<Content: View>: UIViewControllerRepresentable {
     
     @State private var contentOffsetAnimation: TimerAnimation?
@@ -243,6 +244,7 @@ internal struct UIScrollViewWrapper<Content: View>: UIViewControllerRepresentabl
     }
 }
 
+@available(iOS 13.0, *)
 internal class UIScrollViewViewController<Content: View>: UIViewController {
     
     fileprivate let scrollView: UIScrollView

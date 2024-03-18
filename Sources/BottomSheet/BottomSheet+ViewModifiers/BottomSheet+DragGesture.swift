@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+@available(iOS 13.0, *)
 public extension BottomSheet {
     
     /// Adds an action to perform when the gesture’s value changes.

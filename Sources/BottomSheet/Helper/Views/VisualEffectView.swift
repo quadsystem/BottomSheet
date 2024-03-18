@@ -104,6 +104,7 @@ public enum VisualEffect: Equatable, Hashable {
 }
 
 #if os(iOS) || targetEnvironment(macCatalyst)
+@available(iOS 13.0, *)
 fileprivate extension VisualEffect {
     var blurStyle: UIBlurEffect.Style {
         switch self {
@@ -227,6 +228,7 @@ internal struct VisualEffectView: NSViewRepresentable {
     }
 }
 #elseif canImport(UIKit)
+@available(iOS 13.0, *)
 internal struct VisualEffectView: UIViewRepresentable {
     
     var visualEffect: VisualEffect

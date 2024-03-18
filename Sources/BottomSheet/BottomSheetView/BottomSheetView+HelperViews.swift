@@ -8,6 +8,7 @@
 import SwiftUI
 import Combine
 
+@available(iOS 13.0, *)
 internal extension BottomSheetView {
     func fullScreenBackground(with geometry: GeometryProxy) -> some View {
         VisualEffectView(visualEffect: self.configuration.backgroundBlurMaterial)

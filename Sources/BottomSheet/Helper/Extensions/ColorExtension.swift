@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+@available(iOS 13.0, *)
 internal extension Color {
 #if os(macOS)
     static var tertiaryLabel = Color(NSColor.tertiaryLabelColor)

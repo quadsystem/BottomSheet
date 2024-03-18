@@ -115,6 +115,7 @@ private struct RoundedCorner: Shape {
     var radius: CGFloat = .infinity
     var corners: UIRectCorner = .allCorners
     
+    @available(iOS 13.0, *)
     func path(in rect: CGRect) -> Path {
         let path = UIBezierPath(
             roundedRect: rect,
@@ -129,6 +130,7 @@ private struct RoundedCorner: Shape {
 }
 #endif
 
+@available(iOS 13.0, *)
 internal extension View {
     func cornerRadius(
         _ radius: CGFloat,

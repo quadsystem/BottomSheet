@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+@available(iOS 13.0, *)
 internal extension BottomSheetView {
     func dragGesture(with geometry: GeometryProxy) -> some Gesture {
         DragGesture()

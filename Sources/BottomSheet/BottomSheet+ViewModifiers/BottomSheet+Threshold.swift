@@ -7,6 +7,7 @@
 
 import Foundation
 
+@available(iOS 13.0, *)
 public extension BottomSheet {
     
     /// Sets a custom threshold which determines, when to trigger swipe to dismiss or flick through.

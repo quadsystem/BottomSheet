@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+@available(iOS 13.0, *)
 public extension BottomSheet {
     
     /// Applies the given animation to the BottomSheet when any value changes.

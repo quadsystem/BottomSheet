@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+@available(iOS 13.0, *)
 public struct BottomSheet<HContent: View, MContent: View, V: View>: View {
     
     @Binding private var bottomSheetPosition: BottomSheetPosition
@@ -79,6 +80,7 @@ public struct BottomSheet<HContent: View, MContent: View, V: View>: View {
     }
 }
 
+@available(iOS 13.0, *)
 public extension View {
     
     /// Adds a BottomSheet to the view.

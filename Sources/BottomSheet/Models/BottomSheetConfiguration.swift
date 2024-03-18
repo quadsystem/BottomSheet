@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+@available(iOS 13.0, *)
 internal class BottomSheetConfiguration: Equatable {
     // For animating changes
     static func == (
